@@ -39,3 +39,8 @@ div.margin {
 div.lightgray {
     color: lightgray;
 }
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
