@@ -1,0 +1,41 @@
+div.grey {
+    color: gray;
+}
+h1 {
+    color: gray;
+}
+div.a {
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;margin-left:auto;margin-right:auto;
+}
+div.b {
+    text-align: left;
+}
+body {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+@font-face {
+    font-family: SusFont;
+    src: url('fonts/MochiyPopOne-Regular.ttf')
+}
+@font-face {
+    font-family: ArialFont;
+    src: url('fonts/arial.ttf')
+}
+div.c {
+    font-family: SusFont;
+}
+div.d {
+    font-family: ArialFont;
+}
+div.margin {
+    margin-left: 200px;margin-right: 200px;
+}
+div.lightgray {
+    color: lightgray;
+}
