@@ -1,16 +1,10 @@
-div.grey {
-    color: gray;
-}
-h1 {
-    color: gray;
-}
-div.centertext {
+.centertext {
     text-align: center;
 }
 table, th, td {
     border: 1px solid black;margin-left:auto;margin-right:auto;
 }
-div.lefttext {
+.lefttext {
     text-align: left;
 }
 body {
@@ -27,24 +21,21 @@ body {
     font-family: ArialFont;
     src: url('fonts/arial.ttf')
 }
-div.Mochiy {
+.Mochiy {
     font-family: MochiyPopOne;
 }
-div.Arial {
+.Arial {
     font-family: ArialFont;
 }
-div.margin {
+.margin {
     margin-left: 200px;margin-right: 200px;
-}
-div.lightgray {
-    color: lightgray;
 }
 img.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-div.indent {
+.indent {
     margin-left: 20px;
 }
 ul {
@@ -79,7 +70,7 @@ li a.active {
     color: white;
     background-color: #2653ce;
 }
-#title{
+#title{ /* Necessary for every title element or else the navigation bar will cover it */
     width: 100%;
     height: 50px;
     margin-top: 50px;
