@@ -1,3 +1,6 @@
+* {
+    font-family: 'ArialFont', Arial;
+}
 .centertext {
     text-align: center;
 }
@@ -23,9 +26,6 @@ body {
 }
 .Mochiy {
     font-family: MochiyPopOne;
-}
-.Arial {
-    font-family: ArialFont;
 }
 .margin {
     margin-left: 200px;margin-right: 200px;
