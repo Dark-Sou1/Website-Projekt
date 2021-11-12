@@ -47,7 +47,7 @@ ul {
     padding: 0;
     overflow: hidden;
     border: 1px solid #a8a8a8;
-    background-color: #333333;
+    background-color: #333;
 }
   
 li {
@@ -56,19 +56,18 @@ li {
   
 li a {
     display: block;
-    color: #666;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
   
 li a:hover:not(.active) {
-    background-color: rgb(146, 255, 136);
+    background-color: #111;
 }
   
 li a.active {
-    color: white;
-    background-color: #00d11c;
+    background-color: #04AA6D;
 }
 #title{ /* Necessary for every title element or else the navigation bar will cover it */
     width: 100%;
