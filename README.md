@@ -1,5 +1,4 @@
 # Website-Projekt
-tru
 
 by Adithya, Nalin and Ashley
 
