@@ -1,14 +1,8 @@
 * {
-    font-family: 'ArialFont', Arial;
+    font-family: Arial;
 }
 .centertext {
     text-align: center;
-}
-table, th, td {
-    border: 1px solid black;margin-left:auto;margin-right:auto;
-}
-.lefttext {
-    text-align: left;
 }
 body {
     background-image: url('');
@@ -16,19 +10,8 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
-@font-face {
-    font-family: MochiyPopOne;
-    src: url('fonts/MochiyPopOne-Regular.ttf')
-}
-@font-face {
-    font-family: ArialFont;
-    src: url('fonts/arial.ttf')
-}
-.Mochiy {
-    font-family: MochiyPopOne;
-}
 .margin {
-    margin-left: 200px;margin-right: 200px;
+    margin-left: 150px;margin-right: 150px;
 }
 img.center {
     display: block;
@@ -67,7 +50,7 @@ li a:hover:not(.active) {
 }
   
 li a.active {
-    background-color: #04AA6D;
+    background-color: #416de6;
 }
 #title{ /* Necessary for every title element or else the navigation bar will cover it */
     width: 100%;
