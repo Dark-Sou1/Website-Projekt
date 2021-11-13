@@ -65,11 +65,3 @@ nav {
 .nav-links ul li.other:hover::after {
     width: 100%;
 }
-li a.active{
-    content: '';
-    width: 100%;
-    height: 2px;
-    background: #6554aff5;
-    display: block;
-    margin: auto;
-}
