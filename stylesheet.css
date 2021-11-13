@@ -1,14 +1,18 @@
 * {
-    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 .centertext {
     text-align: center;
 }
-body {
-    background-image: url('images/backbround.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(138, 138, 138, 0.7),rgba(138, 138, 138, 0.7)),url(images/Background.jpg);
+    background-position: center;
     background-size: cover;
+    position: relative;
 }
 .margin {
     margin-left: 200px;margin-right: 200px;
@@ -21,36 +25,46 @@ img.center {
 .indent {
     margin-left: 20px;
 }
-ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #a8a8a8;
-    background-color: #333;
+nav {
+    display: flex;
+    padding: 1% 3%;
+    justify-content: space-between;
+    align-items: center;
 }
-  
-li {
-    float: left;
+
+.nav-links {
+    flex: 1;
+    text-align: right;
 }
-  
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 4px 6px;
+}
+.nav-links ul li a {
+    color: black;
     text-decoration: none;
+    font-size: 20px;
 }
-  
-li a:hover:not(.active) {
-    background-color: #111;
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #005ca7;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
 }
-  
-li a.active {
-    background-color: #416de6;
+.nav-links ul li.other:hover::after {
+    width: 100%;
+}
+li a.active{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #005ca7;
+    display: block;
+    margin: auto;
 }
 #title{ /* Necessary for every title element or else the navigation bar will cover it */
     width: 100%;
